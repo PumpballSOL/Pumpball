@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 96" width="900" height="96" role="img" aria-label="Prize pool: accumulating">
+<title>PRIZE POOL // ACCUMULATING</title>
+<defs>
+<linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#00FF88" stop-opacity="0"/><stop offset=".55" stop-color="#00FF88"/><stop offset="1" stop-color="#fff"/></linearGradient>
+<clipPath id="t"><rect x="60" y="40" width="780" height="16" rx="4"/></clipPath>
+<pattern id="st" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="16" fill="#00FF88" opacity=".16"/></pattern>
+</defs>
+<style>
+.mv{animation:mv 2.6s cubic-bezier(.5,0,.5,1) infinite}
+@keyframes mv{from{transform:translateX(-260px)}to{transform:translateX(840px)}}
+.stripe{animation:sp 1.2s linear infinite}
+@keyframes sp{to{transform:translateX(22.6px)}}
+.bl{animation:bl 1.2s steps(1) infinite}
+@keyframes bl{50%{opacity:.2}}
+</style>
+<rect width="900" height="96" rx="12" fill="#050505"/>
+<rect x=".5" y=".5" width="899" height="95" rx="12" fill="none" stroke="#1C3A2A"/>
+<text x="60" y="30" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-weight="800" font-size="16" letter-spacing="3" fill="#fff">PRIZE POOL</text>
+<g class="bl"><circle cx="708" cy="25" r="5" fill="#00FF88"/></g>
+<text x="840" y="30" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="14" letter-spacing="2" fill="#00FF88">ACCUMULATING</text>
+<rect x="60" y="40" width="780" height="16" rx="4" fill="#0B140F" stroke="#1C3A2A"/>
+<g clip-path="url(#t)"><rect class="stripe" x="40" y="40" width="820" height="16" fill="url(#st)"/><rect class="mv" x="60" y="40" width="260" height="16" fill="url(#g)"/></g>
+<line x1="60" y1="60" x2="60" y2="72" stroke="#00FF88" stroke-opacity=".4"/><line x1="144" y1="60" x2="144" y2="68" stroke="#00FF88" stroke-opacity=".4"/><line x1="228" y1="60" x2="228" y2="72" stroke="#00FF88" stroke-opacity=".4"/><line x1="312" y1="60" x2="312" y2="68" stroke="#00FF88" stroke-opacity=".4"/><line x1="396" y1="60" x2="396" y2="72" stroke="#00FF88" stroke-opacity=".4"/><line x1="480" y1="60" x2="480" y2="68" stroke="#00FF88" stroke-opacity=".4"/><line x1="564" y1="60" x2="564" y2="72" stroke="#00FF88" stroke-opacity=".4"/><line x1="648" y1="60" x2="648" y2="68" stroke="#00FF88" stroke-opacity=".4"/><line x1="732" y1="60" x2="732" y2="72" stroke="#00FF88" stroke-opacity=".4"/><line x1="816" y1="60" x2="816" y2="68" stroke="#00FF88" stroke-opacity=".4"/><line x1="900" y1="60" x2="900" y2="72" stroke="#00FF88" stroke-opacity=".4"/>
+</svg>

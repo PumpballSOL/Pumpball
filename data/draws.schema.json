@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PUMPBALL draws",
+  "description": "Single source of truth for published PUMPBALL addresses and draw results. null means TBA.",
+  "type": "object",
+  "required": ["network", "token", "draws"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "network": { "type": "string", "const": "solana" },
+    "token": {
+      "type": "object",
+      "required": ["name", "contractAddress", "prizeWallet"],
+      "properties": {
+        "name": { "type": "string" },
+        "contractAddress": { "type": ["string", "null"], "description": "Token mint address. null = TBA." },
+        "prizeWallet": { "type": ["string", "null"], "description": "Prize wallet address. null = TBA." }
+      },
+      "additionalProperties": false
+    },
+    "draws": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "status", "prize", "winner", "tx", "drawnAt"],
+        "properties": {
+          "id": { "type": "integer", "minimum": 1 },
+          "status": { "type": "string", "enum": ["pending", "drawn"] },
+          "prize": { "type": ["string", "null"], "description": "Human readable prize, e.g. '12.5 SOL'. null = TBA." },
+          "winner": { "type": ["string", "null"], "description": "Winner wallet address. null = TBA." },
+          "tx": { "type": ["string", "null"], "description": "Payout transaction signature. null = TBA." },
+          "drawnAt": { "type": ["string", "null"], "format": "date-time" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

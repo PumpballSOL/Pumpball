@@ -1,0 +1,19 @@
+{
+  "$schema": "./draws.schema.json",
+  "network": "solana",
+  "token": {
+    "name": "PUMPBALL",
+    "contractAddress": null,
+    "prizeWallet": null
+  },
+  "draws": [
+    {
+      "id": 1,
+      "status": "pending",
+      "prize": null,
+      "winner": null,
+      "tx": null,
+      "drawnAt": null
+    }
+  ]
+}

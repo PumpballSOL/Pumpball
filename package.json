@@ -1,0 +1,16 @@
+{
+  "name": "pumpball",
+  "version": "0.0.1",
+  "description": "The Powerball of Pump.fun. Pump. Hold. Draw. Win.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "draw:demo": "node scripts/draw-demo.mjs",
+    "draw:demo:fast": "node scripts/draw-demo.mjs --fast",
+    "history": "node scripts/render-history.mjs",
+    "history:check": "node scripts/render-history.mjs --check"
+  },
+  "keywords": ["pump.fun", "solana", "lottery", "powerball", "pumpball"]
+}

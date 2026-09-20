@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1360 250" width="1360" height="250" role="img" aria-label="Fee flow: Pump.fun, trading fees, PUMPBALL, prize pool, draw, winner">
+<title>PUMPBALL fee flow</title>
+<style>
+.nb{fill:#070B08;stroke:#1C3A2A;stroke-width:2}
+.dash{stroke-dasharray:4 6;animation:dash 1s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-10}}
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 3s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.liq{animation:liq 7.2s ease-in-out infinite}
+@keyframes liq{0%{transform:translateY(70px)}70%{transform:translateY(22px)}100%{transform:translateY(70px)}}
+@keyframes act0{0.00%{stroke:#00FF88;fill:#0B2A1B}16.17%{stroke:#00FF88;fill:#0B2A1B}18.67%{stroke:#1C3A2A;fill:#070B08}100.00%{stroke:#1C3A2A;fill:#070B08}}
+.n0{animation:act0 7.2s linear infinite}
+@keyframes tx0{0.00%{fill:#fff}16.17%{fill:#fff}18.67%{fill:#B9C7BF}100.00%{fill:#B9C7BF}}
+.t0{animation:tx0 7.2s linear infinite}
+@keyframes dot0{0%,9.17%{opacity:0;transform:translateX(0)}9.57%{opacity:1}16.67%{opacity:1;transform:translateX(54px)}17.07%,100%{opacity:0;transform:translateX(54px)}}
+.dot0{animation:dot0 7.2s linear infinite}
+@keyframes act1{0.00%{stroke:#1C3A2A;fill:#070B08}14.67%{stroke:#1C3A2A;fill:#070B08}16.67%{stroke:#00FF88;fill:#0B2A1B}32.83%{stroke:#00FF88;fill:#0B2A1B}35.33%{stroke:#1C3A2A;fill:#070B08}100.00%{stroke:#1C3A2A;fill:#070B08}}
+.n1{animation:act1 7.2s linear infinite}
+@keyframes tx1{0.00%{fill:#B9C7BF}14.67%{fill:#B9C7BF}16.67%{fill:#fff}32.83%{fill:#fff}35.33%{fill:#B9C7BF}100.00%{fill:#B9C7BF}}
+.t1{animation:tx1 7.2s linear infinite}
+@keyframes dot1{0%,25.83%{opacity:0;transform:translateX(0)}26.23%{opacity:1}33.33%{opacity:1;transform:translateX(54px)}33.73%,100%{opacity:0;transform:translateX(54px)}}
+.dot1{animation:dot1 7.2s linear infinite}
+@keyframes act2{0.00%{stroke:#1C3A2A;fill:#070B08}31.33%{stroke:#1C3A2A;fill:#070B08}33.33%{stroke:#00FF88;fill:#0B2A1B}49.50%{stroke:#00FF88;fill:#0B2A1B}52.00%{stroke:#1C3A2A;fill:#070B08}100.00%{stroke:#1C3A2A;fill:#070B08}}
+.n2{animation:act2 7.2s linear infinite}
+@keyframes tx2{0.00%{fill:#B9C7BF}31.33%{fill:#B9C7BF}33.33%{fill:#fff}49.50%{fill:#fff}52.00%{fill:#B9C7BF}100.00%{fill:#B9C7BF}}
+.t2{animation:tx2 7.2s linear infinite}
+@keyframes dot2{0%,42.50%{opacity:0;transform:translateX(0)}42.90%{opacity:1}50.00%{opacity:1;transform:translateX(54px)}50.40%,100%{opacity:0;transform:translateX(54px)}}
+.dot2{animation:dot2 7.2s linear infinite}
+@keyframes act3{0.00%{stroke:#1C3A2A;fill:#070B08}48.00%{stroke:#1C3A2A;fill:#070B08}50.00%{stroke:#00FF88;fill:#0B2A1B}66.17%{stroke:#00FF88;fill:#0B2A1B}68.67%{stroke:#1C3A2A;fill:#070B08}100.00%{stroke:#1C3A2A;fill:#070B08}}
+.n3{animation:act3 7.2s linear infinite}
+@keyframes tx3{0.00%{fill:#B9C7BF}48.00%{fill:#B9C7BF}50.00%{fill:#fff}66.17%{fill:#fff}68.67%{fill:#B9C7BF}100.00%{fill:#B9C7BF}}
+.t3{animation:tx3 7.2s linear infinite}
+@keyframes dot3{0%,59.17%{opacity:0;transform:translateX(0)}59.57%{opacity:1}66.67%{opacity:1;transform:translateX(54px)}67.07%,100%{opacity:0;transform:translateX(54px)}}
+.dot3{animation:dot3 7.2s linear infinite}
+@keyframes act4{0.00%{stroke:#1C3A2A;fill:#070B08}64.67%{stroke:#1C3A2A;fill:#070B08}66.67%{stroke:#00FF88;fill:#0B2A1B}82.83%{stroke:#00FF88;fill:#0B2A1B}85.33%{stroke:#1C3A2A;fill:#070B08}100.00%{stroke:#1C3A2A;fill:#070B08}}
+.n4{animation:act4 7.2s linear infinite}
+@keyframes tx4{0.00%{fill:#B9C7BF}64.67%{fill:#B9C7BF}66.67%{fill:#fff}82.83%{fill:#fff}85.33%{fill:#B9C7BF}100.00%{fill:#B9C7BF}}
+.t4{animation:tx4 7.2s linear infinite}
+@keyframes dot4{0%,75.83%{opacity:0;transform:translateX(0)}76.23%{opacity:1}83.33%{opacity:1;transform:translateX(54px)}83.73%,100%{opacity:0;transform:translateX(54px)}}
+.dot4{animation:dot4 7.2s linear infinite}
+@keyframes act5{0.00%{stroke:#1C3A2A;fill:#070B08}81.33%{stroke:#1C3A2A;fill:#070B08}83.33%{stroke:#00FF88;fill:#0B2A1B}100.00%{stroke:#00FF88;fill:#0B2A1B}}
+.n5{animation:act5 7.2s linear infinite}
+@keyframes tx5{0.00%{fill:#B9C7BF}81.33%{fill:#B9C7BF}83.33%{fill:#fff}100.00%{fill:#fff}}
+.t5{animation:tx5 7.2s linear infinite}
+@keyframes cf0{0%,83.33%{opacity:0;transform:translate(0,0) rotate(0)}83.93%{opacity:1}94.33%,100%{opacity:0;transform:translate(30px,-51px) rotate(104deg)}}
+.cf0{animation:cf0 7.2s ease-out infinite}
+@keyframes cf1{0%,83.33%{opacity:0;transform:translate(0,0) rotate(0)}83.93%{opacity:1}94.33%,100%{opacity:0;transform:translate(72px,-32px) rotate(116deg)}}
+.cf1{animation:cf1 7.2s ease-out infinite}
+@keyframes cf2{0%,83.33%{opacity:0;transform:translate(0,0) rotate(0)}83.93%{opacity:1}94.33%,100%{opacity:0;transform:translate(44px,-0px) rotate(216deg)}}
+.cf2{animation:cf2 7.2s ease-out infinite}
+@keyframes cf3{0%,83.33%{opacity:0;transform:translate(0,0) rotate(0)}83.93%{opacity:1}94.33%,100%{opacity:0;transform:translate(-17px,-35px) rotate(200deg)}}
+.cf3{animation:cf3 7.2s ease-out infinite}
+@keyframes cf4{0%,83.33%{opacity:0;transform:translate(0,0) rotate(0)}83.93%{opacity:1}94.33%,100%{opacity:0;transform:translate(-14px,-22px) rotate(289deg)}}
+.cf4{animation:cf4 7.2s ease-out infinite}
+@keyframes cf5{0%,83.33%{opacity:0;transform:translate(0,0) rotate(0)}83.93%{opacity:1}94.33%,100%{opacity:0;transform:translate(-74px,-36px) rotate(317deg)}}
+.cf5{animation:cf5 7.2s ease-out infinite}
+@keyframes cf6{0%,83.33%{opacity:0;transform:translate(0,0) rotate(0)}83.93%{opacity:1}94.33%,100%{opacity:0;transform:translate(-37px,11px) rotate(197deg)}}
+.cf6{animation:cf6 7.2s ease-out infinite}
+@keyframes cf7{0%,83.33%{opacity:0;transform:translate(0,0) rotate(0)}83.93%{opacity:1}94.33%,100%{opacity:0;transform:translate(70px,-56px) rotate(175deg)}}
+.cf7{animation:cf7 7.2s ease-out infinite}
+@keyframes cf8{0%,83.33%{opacity:0;transform:translate(0,0) rotate(0)}83.93%{opacity:1}94.33%,100%{opacity:0;transform:translate(-57px,-57px) rotate(194deg)}}
+.cf8{animation:cf8 7.2s ease-out infinite}
+@keyframes cf9{0%,83.33%{opacity:0;transform:translate(0,0) rotate(0)}83.93%{opacity:1}94.33%,100%{opacity:0;transform:translate(-78px,-44px) rotate(286deg)}}
+.cf9{animation:cf9 7.2s ease-out infinite}
+@keyframes cf10{0%,83.33%{opacity:0;transform:translate(0,0) rotate(0)}83.93%{opacity:1}94.33%,100%{opacity:0;transform:translate(-35px,-43px) rotate(164deg)}}
+.cf10{animation:cf10 7.2s ease-out infinite}
+@keyframes cf11{0%,83.33%{opacity:0;transform:translate(0,0) rotate(0)}83.93%{opacity:1}94.33%,100%{opacity:0;transform:translate(-39px,-18px) rotate(91deg)}}
+.cf11{animation:cf11 7.2s ease-out infinite}
+@keyframes cf12{0%,83.33%{opacity:0;transform:translate(0,0) rotate(0)}83.93%{opacity:1}94.33%,100%{opacity:0;transform:translate(23px,-73px) rotate(271deg)}}
+.cf12{animation:cf12 7.2s ease-out infinite}
+@keyframes cf13{0%,83.33%{opacity:0;transform:translate(0,0) rotate(0)}83.93%{opacity:1}94.33%,100%{opacity:0;transform:translate(56px,-26px) rotate(336deg)}}
+.cf13{animation:cf13 7.2s ease-out infinite}
+</style>
+<rect width="1360" height="250" rx="14" fill="#050505"/>
+<rect x=".5" y=".5" width="1359" height="249" rx="14" fill="none" stroke="#1C3A2A"/>
+<rect class="nb n0" x="20" y="50" width="160" height="100" rx="12"/><text x="34" y="76" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="14" fill="#3D6B52">01</text><text class="t0" x="100.0" y="114" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-weight="800" font-size="18" letter-spacing="1">PUMP.FUN</text><text x="100.0" y="184" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="15" fill="#7A8A80">where it starts</text><line class="dash" x1="186" y1="100.0" x2="238" y2="100.0" stroke="#00FF88" stroke-opacity=".55" stroke-width="2"/><path d="M236 92.0 L246 100.0 L236 108.0" fill="none" stroke="#00FF88" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle class="dot0" cx="188" cy="100.0" r="5" fill="#fff"/><rect class="nb n1" x="252" y="50" width="160" height="100" rx="12"/><text x="266" y="76" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="14" fill="#3D6B52">02</text><text class="t1" x="332.0" y="114" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-weight="800" font-size="18" letter-spacing="1">TRADING FEES</text><text x="332.0" y="184" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="15" fill="#7A8A80">activity → fees</text><line class="dash" x1="418" y1="100.0" x2="470" y2="100.0" stroke="#00FF88" stroke-opacity=".55" stroke-width="2"/><path d="M468 92.0 L478 100.0 L468 108.0" fill="none" stroke="#00FF88" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle class="dot1" cx="420" cy="100.0" r="5" fill="#fff"/><rect class="nb n2" x="484" y="50" width="160" height="100" rx="12"/><text x="498" y="76" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="14" fill="#3D6B52">03</text><text class="t2" x="564.0" y="114" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-weight="800" font-size="18" letter-spacing="1">PUMPBALL</text><text x="564.0" y="184" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="15" fill="#7A8A80">the token</text><line class="dash" x1="650" y1="100.0" x2="702" y2="100.0" stroke="#00FF88" stroke-opacity=".55" stroke-width="2"/><path d="M700 92.0 L710 100.0 L700 108.0" fill="none" stroke="#00FF88" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle class="dot2" cx="652" cy="100.0" r="5" fill="#fff"/><rect class="nb n3" x="716" y="50" width="160" height="100" rx="12"/><text x="730" y="76" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="14" fill="#3D6B52">04</text><text class="t3" x="796.0" y="114" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-weight="800" font-size="18" letter-spacing="1">PRIZE POOL</text><text x="796.0" y="184" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="15" fill="#7A8A80">accumulates</text><line class="dash" x1="882" y1="100.0" x2="934" y2="100.0" stroke="#00FF88" stroke-opacity=".55" stroke-width="2"/><path d="M932 92.0 L942 100.0 L932 108.0" fill="none" stroke="#00FF88" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle class="dot3" cx="884" cy="100.0" r="5" fill="#fff"/><rect class="nb n4" x="948" y="50" width="160" height="100" rx="12"/><text x="962" y="76" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="14" fill="#3D6B52">05</text><text class="t4" x="1028.0" y="114" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-weight="800" font-size="18" letter-spacing="1">DRAW</text><text x="1028.0" y="184" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="15" fill="#7A8A80">predetermined</text><line class="dash" x1="1114" y1="100.0" x2="1166" y2="100.0" stroke="#00FF88" stroke-opacity=".55" stroke-width="2"/><path d="M1164 92.0 L1174 100.0 L1164 108.0" fill="none" stroke="#00FF88" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle class="dot4" cx="1116" cy="100.0" r="5" fill="#fff"/><rect class="nb n5" x="1180" y="50" width="160" height="100" rx="12"/><text x="1194" y="76" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="14" fill="#3D6B52">06</text><text class="t5" x="1260.0" y="114" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-weight="800" font-size="18" letter-spacing="1">WINNER</text><text x="1260.0" y="184" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="15" fill="#7A8A80">one wallet</text><clipPath id="pc"><rect x="716" y="50" width="160" height="100" rx="12"/></clipPath><g clip-path="url(#pc)"><rect class="liq" x="716" y="70" width="160" height="100" fill="#00FF88" opacity=".18"/></g><circle class="spin" cx="1084" cy="74" r="9" fill="none" stroke="#00FF88" stroke-width="2" stroke-dasharray="5 4"/><rect class="cf0" x="1257" y="70" width="6" height="10" fill="#00FF88"/><rect class="cf1" x="1257" y="70" width="6" height="10" fill="#fff"/><rect class="cf2" x="1257" y="70" width="6" height="10" fill="#00FF88"/><rect class="cf3" x="1257" y="70" width="6" height="10" fill="#fff"/><rect class="cf4" x="1257" y="70" width="6" height="10" fill="#00FF88"/><rect class="cf5" x="1257" y="70" width="6" height="10" fill="#fff"/><rect class="cf6" x="1257" y="70" width="6" height="10" fill="#00FF88"/><rect class="cf7" x="1257" y="70" width="6" height="10" fill="#fff"/><rect class="cf8" x="1257" y="70" width="6" height="10" fill="#00FF88"/><rect class="cf9" x="1257" y="70" width="6" height="10" fill="#fff"/><rect class="cf10" x="1257" y="70" width="6" height="10" fill="#00FF88"/><rect class="cf11" x="1257" y="70" width="6" height="10" fill="#fff"/><rect class="cf12" x="1257" y="70" width="6" height="10" fill="#00FF88"/><rect class="cf13" x="1257" y="70" width="6" height="10" fill="#fff"/>
+</svg>

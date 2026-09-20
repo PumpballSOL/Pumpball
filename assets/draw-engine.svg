@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 420" width="900" height="420" role="img" aria-label="PUMPBALL draw engine terminal. Status online, network Solana, source Pump.fun, pool accumulating, entries holders, next draw pending.">
+<title>PUMPBALL // DRAW ENGINE</title>
+<defs>
+<linearGradient id="sg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#00FF88" stop-opacity="0"/><stop offset=".5" stop-color="#00FF88" stop-opacity=".1"/><stop offset="1" stop-color="#00FF88" stop-opacity="0"/></linearGradient>
+<pattern id="ln" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" opacity=".35"/></pattern>
+<clipPath id="win"><rect width="900" height="420" rx="14"/></clipPath>
+</defs>
+<style>
+.cv{fill:#070B08}
+.bl{animation:bl 1s steps(1) infinite}
+@keyframes bl{50%{opacity:0}}
+.sh{animation:sh 1.8s linear infinite}
+@keyframes sh{from{transform:translateX(-70px)}to{transform:translateX(220px)}}
+.scan{animation:scan 7s linear infinite}
+@keyframes scan{from{transform:translateY(-120px)}to{transform:translateY(440px)}}
+@keyframes ty0{0%,6.67%{transform:translateX(0);animation-timing-function:steps(23,end)}12.57%,96%{transform:translateX(254.4px)}96.01%,100%{transform:translateX(0)}}
+.ty0{animation:ty0 15.0s infinite}
+@keyframes ty2{0%,13.77%{transform:translateX(0);animation-timing-function:steps(20,end)}19.04%,96%{transform:translateX(222.0px)}96.01%,100%{transform:translateX(0)}}
+.ty2{animation:ty2 15.0s infinite}
+@keyframes ty3{0%,20.24%{transform:translateX(0);animation-timing-function:steps(20,end)}25.51%,96%{transform:translateX(222.0px)}96.01%,100%{transform:translateX(0)}}
+.ty3{animation:ty3 15.0s infinite}
+@keyframes ty4{0%,26.71%{transform:translateX(0);animation-timing-function:steps(22,end)}32.40%,96%{transform:translateX(243.6px)}96.01%,100%{transform:translateX(0)}}
+.ty4{animation:ty4 15.0s infinite}
+@keyframes ty5{0%,33.60%{transform:translateX(0);animation-timing-function:steps(26,end)}40.15%,96%{transform:translateX(286.8px)}96.01%,100%{transform:translateX(0)}}
+.ty5{animation:ty5 15.0s infinite}
+@keyframes ty6{0%,41.35%{transform:translateX(0);animation-timing-function:steps(21,end)}46.83%,96%{transform:translateX(232.8px)}96.01%,100%{transform:translateX(0)}}
+.ty6{animation:ty6 15.0s infinite}
+@keyframes ty7{0%,48.03%{transform:translateX(0);animation-timing-function:steps(21,end)}53.51%,96%{transform:translateX(232.8px)}96.01%,100%{transform:translateX(0)}}
+.ty7{animation:ty7 15.0s infinite}
+@keyframes ty9{0%,54.71%{transform:translateX(0);animation-timing-function:steps(25,end)}61.04%,96%{transform:translateX(276.0px)}96.01%,100%{transform:translateX(0)}}
+.ty9{animation:ty9 15.0s infinite}
+@keyframes rv1{0%,19.04%{opacity:0}19.54%,96%{opacity:1}96.01%,100%{opacity:0}}
+.rv1{animation:rv1 15.0s infinite}
+@keyframes rv2{0%,40.15%{opacity:0}40.65%,96%{opacity:1}96.01%,100%{opacity:0}}
+.rv2{animation:rv2 15.0s infinite}
+@keyframes rv3{0%,61.04%{opacity:0}61.54%,96%{opacity:1}96.01%,100%{opacity:0}}
+.rv3{animation:rv3 15.0s infinite}
+</style>
+<g clip-path="url(#win)">
+<rect width="900" height="420" fill="#070B08"/>
+<rect width="900" height="46" fill="#0C130E"/>
+<circle cx="28" cy="23" r="7" fill="#FF5F57"/><circle cx="52" cy="23" r="7" fill="#FEBC2E"/><circle cx="76" cy="23" r="7" fill="#00FF88"/>
+<text x="450.0" y="28" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="14" fill="#7A8A80">pumpball@draw-engine ~ %</text>
+<line x1="0" y1="46.5" x2="900" y2="46.5" stroke="#1C3A2A"/>
+<text x="44" y="106" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="18" font-weight="800" textLength="248.4" lengthAdjust="spacing" xml:space="preserve" style="white-space:pre"><tspan fill="#00FF88">PUMPBALL // DRAW ENGINE</tspan></text><rect class="cv ty0" x="42" y="86" width="948" height="27"/><text x="44" y="164" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="18" font-weight="500" textLength="216.0" lengthAdjust="spacing" xml:space="preserve" style="white-space:pre"><tspan fill="#7A8A80">STATUS        </tspan><tspan fill="#00FF88">ONLINE</tspan></text><rect class="cv ty2" x="42" y="144" width="948" height="27"/><text x="44" y="193" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="18" font-weight="500" textLength="216.0" lengthAdjust="spacing" xml:space="preserve" style="white-space:pre"><tspan fill="#7A8A80">NETWORK       </tspan><tspan fill="#fff">SOLANA</tspan></text><rect class="cv ty3" x="42" y="173" width="948" height="27"/><text x="44" y="222" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="18" font-weight="500" textLength="237.6" lengthAdjust="spacing" xml:space="preserve" style="white-space:pre"><tspan fill="#7A8A80">SOURCE        </tspan><tspan fill="#fff">PUMP.FUN</tspan></text><rect class="cv ty4" x="42" y="202" width="948" height="27"/><text x="44" y="251" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="18" font-weight="500" textLength="280.8" lengthAdjust="spacing" xml:space="preserve" style="white-space:pre"><tspan fill="#7A8A80">POOL          </tspan><tspan fill="#00FF88">ACCUMULATING</tspan></text><rect class="cv ty5" x="42" y="231" width="948" height="27"/><text x="44" y="280" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="18" font-weight="500" textLength="226.8" lengthAdjust="spacing" xml:space="preserve" style="white-space:pre"><tspan fill="#7A8A80">ENTRIES       </tspan><tspan fill="#fff">HOLDERS</tspan></text><rect class="cv ty6" x="42" y="260" width="948" height="27"/><text x="44" y="309" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="18" font-weight="500" textLength="226.8" lengthAdjust="spacing" xml:space="preserve" style="white-space:pre"><tspan fill="#7A8A80">NEXT DRAW     </tspan><tspan fill="#FFD84D">PENDING</tspan></text><rect class="cv ty7" x="42" y="289" width="948" height="27"/><text x="44" y="367" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','Courier New',monospace" font-size="18" font-weight="500" textLength="270.0" lengthAdjust="spacing" xml:space="preserve" style="white-space:pre"><tspan fill="#00FF88">> waiting for the ball...</tspan></text><rect class="cv ty9" x="42" y="347" width="948" height="27"/><g class="rv1"><g class="bl"><circle cx="272" cy="158" r="5" fill="#00FF88"/></g></g><g class="rv2"><rect x="352" y="235" width="220" height="12" rx="3" fill="none" stroke="#00FF88" stroke-opacity=".45"/><clipPath id="bc"><rect x="354" y="237" width="216" height="8" rx="2"/></clipPath><g clip-path="url(#bc)"><rect class="sh" x="352" y="237" width="70" height="8" fill="#00FF88"/></g></g><g class="rv3"><g class="bl"><rect x="316" y="351" width="11" height="20" fill="#00FF88"/></g></g>
+<g class="scan"><rect width="900" height="120" fill="url(#sg)"/></g>
+<rect width="900" height="420" fill="url(#ln)" opacity=".45"/>
+</g>
+<rect x=".5" y=".5" width="899" height="419" rx="14" fill="none" stroke="#00FF88" stroke-opacity=".45"/>
+</svg>
