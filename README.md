@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/pumpball.png" width="200" alt="PUMPBALL logo" />
+<img src="pumpball.png" width="200" alt="PUMPBALL logo" />
 
 ```text
 ██████╗ ██╗   ██╗███╗   ███╗██████╗ ██████╗  █████╗ ██╗     ██╗     
